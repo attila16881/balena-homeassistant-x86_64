@@ -1,4 +1,4 @@
-version: "2.0"
+version: '2.1'
 volumes:
     config:
 services:
@@ -18,7 +18,7 @@ services:
       - "1883:1883"
     restart: always
   hass-configurator:
-    image: "causticlab/hass-configurator-docker:86_64"
+    image: "causticlab/hass-configurator-docker:x86_64"
     restart: always
     ports:
       - "8080:3218"
