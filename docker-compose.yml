@@ -1,4 +1,4 @@
-version: '2'
+version: '2.1'
 volumes:
     config:
     mosquitto:
@@ -19,7 +19,7 @@ services:
     volumes:
       - mosquitto:/mosquitto/data
   hass-configurator:
-    image: "causticlab/hass-configurator-docker:latest"
+    image: "causticlab/hass-configurator-docker:x86_64"
     restart: always
     ports:
       - "3218:3218"
