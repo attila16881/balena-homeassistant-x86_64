@@ -14,10 +14,7 @@ assets:
       url: >-
         https://raw.githubusercontent.com/balena-io-experimental/balena-homeassistant/master/logo.png
 data:
-  defaultDeviceType: raspberrypi3
+  defaultDeviceType: x86-64
   supportedDeviceTypes:
-    - raspberrypi3
-    - raspberrypi4-64
-    - fincm3
-    - beaglebone-black
-version: 0.0.4
+    - x86-64
+version: 0.0.6
